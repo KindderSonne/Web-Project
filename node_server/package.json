@@ -1,0 +1,21 @@
+{
+  "name": "node_server",
+  "version": "1.0.0",
+  "description": "data prj mon web",
+  "license": "ISC",
+  "author": "Nguyen Ba Thanh - 20224291",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mssql": "^11.0.1",
+    "pg": "^8.16.0"
+  },
+  "devDependencies": {}
+}
